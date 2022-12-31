@@ -1,0 +1,66 @@
+body {
+    margin: 0;  
+    background-color: rgb(43, 43, 43);   
+    color: rgb(231, 231, 217);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+TopBar {
+    width: 100%;
+    padding: 6 14;
+    background-color: rgb(15, 15, 15);
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TopBar2 {
+    margin: 0 10;
+}
+SideBar {
+    width: 200px;
+    padding: 3 6;
+    background-color: rgb(20, 20, 20);
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+a.SideBarButton:hover {
+    background-color: rgb(24, 24, 24);
+}
+a.SideBarButton {
+    border: none;
+    border-radius: 10px;
+    color: inherit;
+    background-color: black;
+    padding: 15px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+.HomeB {
+    padding: 50 10;
+}
+main {
+    padding: 18px;
+}
+hr { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
+a:link, a:visited {
+    color: rgb(223, 191, 149);
+}
